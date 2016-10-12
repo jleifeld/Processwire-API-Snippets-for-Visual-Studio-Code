@@ -1,6 +1,6 @@
 # Processwire API Basic Snippets
 
-Download this extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/search?term=processwire&target=VSCode&sortBy=Relevance)
+Download this extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jleifeld.processwire-api-snippets-basic)
 
 -----------------------------------------
 

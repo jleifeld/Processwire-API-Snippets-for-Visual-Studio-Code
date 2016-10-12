@@ -2,7 +2,7 @@
     "name": "processwire-api-snippets-basic",
     "displayName": "Processwire API Snippets Basic",
     "description": "Snippets for the Basic Processwire API",
-    "version": "0.1",
+    "version": "0.1.0",
     "publisher": "jleifeld",
     "engines": {
         "vscode": "^1.5.0"
@@ -10,6 +10,10 @@
     "categories": [
         "Snippets"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jleifeld/Processwire-API-Snippets-for-Visual-Studio-Code"
+    },
     "contributes": {
         "snippets": [
             {
