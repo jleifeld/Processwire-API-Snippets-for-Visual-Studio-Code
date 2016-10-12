@@ -2,7 +2,7 @@
     "name": "processwire-api-snippets-basic",
     "displayName": "Processwire API Snippets Basic",
     "description": "Snippets for the Basic Processwire API",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "jleifeld",
     "engines": {
         "vscode": "^1.5.0"
