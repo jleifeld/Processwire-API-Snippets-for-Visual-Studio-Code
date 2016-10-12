@@ -1,0 +1,890 @@
+{
+	"$config->ajax": {
+		"prefix": "$config->ajax",
+		"body": "\n$config->ajax;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$config->httpHost": {
+		"prefix": "$config->httpHost",
+		"body": "\n$config->httpHost;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$config->https": {
+		"prefix": "$config->https",
+		"body": "\n$config->https;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$config->paths->root": {
+		"prefix": "$config->paths->root",
+		"body": "\n$config->paths->root;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$config->paths->$templates": {
+		"prefix": "$config->paths->$templates",
+		"body": "\n$config->paths->$templates;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$config->urls->root": {
+		"prefix": "$config->urls->root",
+		"body": "\n$config->urls->root;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$config->urls->$templates": {
+		"prefix": "$config->urls->$templates",
+		"body": "\n$config->urls->$templates;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$field->get()": {
+		"prefix": "$field->get()",
+		"body": "\n${1:$field}->get(\\$${2:key});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$field->id": {
+		"prefix": "$field->id",
+		"body": "\n${1:$field}->id;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$field->label": {
+		"prefix": "$field->label",
+		"body": "\n${1:$field}->label;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$field->name": {
+		"prefix": "$field->name",
+		"body": "\n${1:$field}->name;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$field->set()": {
+		"prefix": "$field->set()",
+		"body": "\n${1:$field}->set(\\$${2:key},\"${3:value}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$fields->find()": {
+		"prefix": "$fields->find()",
+		"body": "\n$fields->find(\"${1:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$fields->get()": {
+		"prefix": "$fields->get()",
+		"body": "\n$fields->get(${1:id});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$fields->get()1": {
+		"prefix": "$fields->get()",
+		"body": "\n$fields->get(\"${1:name}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$fields->get()2": {
+		"prefix": "$fields->get()",
+		"body": "\n$fields->get(\"${1:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$fields->get()3": {
+		"prefix": "$fields->get()",
+		"body": "\n$fields->get(\"${1:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$file->description": {
+		"prefix": "$file->description",
+		"body": "\n$file->description;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$file->ext": {
+		"prefix": "$file->ext",
+		"body": "\n$file->ext;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$file->$filename": {
+		"prefix": "$file->$filename",
+		"body": "\n$file->$filename;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$file->$filesize": {
+		"prefix": "$file->$filesize",
+		"body": "\n$file->$filesize;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$file->$filesizeStr": {
+		"prefix": "$file->$filesizeStr",
+		"body": "\n$file->$filesizeStr;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$file->name": {
+		"prefix": "$file->name",
+		"body": "\n$file->name;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$file->rename()": {
+		"prefix": "$file->rename()",
+		"body": "\n$file->rename(\"${1:name no path}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$file->url": {
+		"prefix": "$file->url",
+		"body": "\n$file->url;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$files->delete()": {
+		"prefix": "$files->delete()",
+		"body": "\n$files->delete(${1:\\$$file});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$files->$page": {
+		"prefix": "$files->$page",
+		"body": "\n$files->$page;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$files->path": {
+		"prefix": "$files->path",
+		"body": "\n$files->path;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$files->url": {
+		"prefix": "$files->url",
+		"body": "\n$files->url;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$image->height()": {
+		"prefix": "$image->height()",
+		"body": "\n${1:$image}->height(${2:width});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$image->height": {
+		"prefix": "$image->height",
+		"body": "\n${1:$image}->height;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$image->size()": {
+		"prefix": "$image->size()",
+		"body": "\n${1:$image}->size(${2:width},${3:height},${4:\\$options[]});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$image->width()": {
+		"prefix": "$image->width()",
+		"body": "\n${1:$image}->width(${2:width});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$image->width": {
+		"prefix": "$image->width",
+		"body": "\n${1:$image}->width;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$input-cookie": {
+		"prefix": "$input-cookie",
+		"body": "\n$input->cookie(\"${1:name}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$input-cookie1": {
+		"prefix": "$input-cookie",
+		"body": "\n$input->cookie->${1:name};\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$input-cookie2": {
+		"prefix": "$input-cookie",
+		"body": "\n$input->cookie[\"${1:name}\"];\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$input-get": {
+		"prefix": "$input-get",
+		"body": "\n$input->get(\"${1:name}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$input-get1": {
+		"prefix": "$input-get",
+		"body": "\n$input->get->${1:name};\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$input-get2": {
+		"prefix": "$input-get",
+		"body": "\n$input->get[\"${1:name}\"];\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$input-post": {
+		"prefix": "$input-post",
+		"body": "\n$input->post(\"${1:name}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$input-post1": {
+		"prefix": "$input-post",
+		"body": "\n$input->post->${1:name};\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$input-post2": {
+		"prefix": "$input-post",
+		"body": "\n$input->post[\"${1:name}\"];\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->child()": {
+		"prefix": "$page->child()",
+		"body": "\n${1:$page}->child(\"${2:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->child": {
+		"prefix": "$page->child",
+		"body": "\n${1:$page}->child;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->children()": {
+		"prefix": "$page->children()",
+		"body": "\n${1:$page}->children(\"${2:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->children": {
+		"prefix": "$page->children",
+		"body": "\n${1:$page}->children;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->$fields": {
+		"prefix": "$page->$fields",
+		"body": "\n${1:$page}->$fields;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->find()": {
+		"prefix": "$page->find()",
+		"body": "\n${1:$page}->find(\"${2:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->get()": {
+		"prefix": "$page->get()",
+		"body": "\n${1:$page}->get(\"${2:$field}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->get()1": {
+		"prefix": "$page->get()",
+		"body": "\n${1:$page}->get(\"${2:$field1}|${3:$field2}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->getUnformatted()": {
+		"prefix": "$page->getUnformatted()",
+		"body": "\n${1:$page}->getUnformatted(\"${2:$field}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->httpUrl": {
+		"prefix": "$page->httpUrl",
+		"body": "\n${1:$page}->httpUrl;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->id": {
+		"prefix": "$page->id",
+		"body": "\n${1:$page}->id;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->name": {
+		"prefix": "$page->name",
+		"body": "\n${1:$page}->name;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->numChildren()": {
+		"prefix": "$page->numChildren()",
+		"body": "\n${1:$page}->numChildren($2);\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->numChildren": {
+		"prefix": "$page->numChildren",
+		"body": "\n${1:$page}->numChildren;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->of()": {
+		"prefix": "$page->of()",
+		"body": "\n${1:$page}->of(true);\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->parent": {
+		"prefix": "$page->parent",
+		"body": "\n${1:$page}->parent;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->parents": {
+		"prefix": "$page->parents",
+		"body": "\n${1:$page}->parents;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->parent_id": {
+		"prefix": "$page->parent_id",
+		"body": "\n${1:$page}->parent_id;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->path": {
+		"prefix": "$page->path",
+		"body": "\n${1:$page}->path;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->rootParent": {
+		"prefix": "$page->rootParent",
+		"body": "\n${1:$page}->rootParent;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->setOutputFormatting()": {
+		"prefix": "$page->setOutputFormatting()",
+		"body": "\n${1:$page}->setOutputFormatting(true);\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->siblings()": {
+		"prefix": "$page->siblings()",
+		"body": "\n${1:$page}->siblings(\"${2:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->siblings": {
+		"prefix": "$page->siblings",
+		"body": "\n${1:$page}->siblings;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->$template": {
+		"prefix": "$page->$template",
+		"body": "\n${1:$page}->$template;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->title": {
+		"prefix": "$page->title",
+		"body": "\n${1:$page}->title;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$page->url": {
+		"prefix": "$page->url",
+		"body": "\n${1:$page}->url;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-eq()": {
+		"prefix": "$a-eq()",
+		"body": "\n${1:a}->eq(\\$${2:n});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-filter()": {
+		"prefix": "$a-filter()",
+		"body": "\n${1:a}->filter(\"${2:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-find()": {
+		"prefix": "$a-find()",
+		"body": "\n${1:a}->find(\"${2:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-findRandom()": {
+		"prefix": "$a-findRandom()",
+		"body": "\n${1:a}->findRandom(\\$${2:n});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-first()": {
+		"prefix": "$a-first()",
+		"body": "\n${1:a}->first();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-get()": {
+		"prefix": "$a-get()",
+		"body": "\n${1:a}->get(\\$${2:key});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-get()1": {
+		"prefix": "$a-get()",
+		"body": "\n${1:a}->get(\"${2:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-getLimit()": {
+		"prefix": "$a-getLimit()",
+		"body": "\n${1:a}->getLimit();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-getNext()": {
+		"prefix": "$a-getNext()",
+		"body": "\n${1:a}->getNext(\\$${2:item});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-getPrev()": {
+		"prefix": "$a-getPrev()",
+		"body": "\n${1:a}->getPrev(\\$${2:item});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-getRandom()": {
+		"prefix": "$a-getRandom()",
+		"body": "\n${1:a}->getRandom();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-getStart()": {
+		"prefix": "$a-getStart()",
+		"body": "\n${1:a}->getStart();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-getTotal()": {
+		"prefix": "$a-getTotal()",
+		"body": "\n${1:a}->getTotal();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-index()": {
+		"prefix": "$a-index()",
+		"body": "\n${1:a}->index(\\$${2:n});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-last()": {
+		"prefix": "$a-last()",
+		"body": "\n${1:a}->last();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-not()": {
+		"prefix": "$a-not()",
+		"body": "\n${1:a}->not(\"${2:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-pop()": {
+		"prefix": "$a-pop()",
+		"body": "\n${1:a}->pop();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-reverse()": {
+		"prefix": "$a-reverse()",
+		"body": "\n${1:a}->reverse();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-shift()": {
+		"prefix": "$a-shift()",
+		"body": "\n${1:a}->shift();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-shuffle()": {
+		"prefix": "$a-shuffle()",
+		"body": "\n${1:a}->shuffle();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-findRandomTimed()": {
+		"prefix": "$a-findRandomTimed()",
+		"body": "\n${1:a}->findRandomTimed(\\$${2:n},\\$${3:seed}='Ymd');\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-slice()": {
+		"prefix": "$a-slice()",
+		"body": "\n${1:a}->slice(\\$${2:n},\\$${3:limit});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$a-sort()": {
+		"prefix": "$a-sort()",
+		"body": "\n${1:a}->sort(\"${2:property}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$pages->count()": {
+		"prefix": "$pages->count()",
+		"body": "\n$pages->count(\"${1:id, path or selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$pages->find()": {
+		"prefix": "$pages->find()",
+		"body": "\n$pages->find(\"${1:id, path or selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$pages->get()": {
+		"prefix": "$pages->get()",
+		"body": "\n$pages->get(\"${1:id, path or selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$permission-get()": {
+		"prefix": "$permission-get()",
+		"body": "\n$permission->get(\\$${1:key});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$permission-id": {
+		"prefix": "$permission-id",
+		"body": "\n$permission->id;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$permission-name": {
+		"prefix": "$permission-name",
+		"body": "\n$permission->name;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$permission-title": {
+		"prefix": "$permission-title",
+		"body": "\n$permission->title;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$permissions-find()": {
+		"prefix": "$permissions-find()",
+		"body": "\n$permissions->find(\"${1:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$permissions-get()": {
+		"prefix": "$permissions-get()",
+		"body": "\n$permissions->get(${1:id});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$permissions-get()1": {
+		"prefix": "$permissions-get()",
+		"body": "\n$permissions->get(\"${1:name}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$role-get()": {
+		"prefix": "$role-get()",
+		"body": "\n$role->get(\\$${1:key});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$role-id": {
+		"prefix": "$role-id",
+		"body": "\n$role->id;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$role-name": {
+		"prefix": "$role-name",
+		"body": "\n$role->name;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$role-$permissions": {
+		"prefix": "$role-$permissions",
+		"body": "\n$role->$permissions;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$roles-find()": {
+		"prefix": "$roles-find()",
+		"body": "\n$roles->find(\"${1:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$roles-get()": {
+		"prefix": "$roles-get()",
+		"body": "\n$roles->get(\"${1:name|id}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-email()": {
+		"prefix": "$sanitizer-email()",
+		"body": "\n$sanitizer->email(\\$${1:email});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-$fieldName()": {
+		"prefix": "$sanitizer-$fieldName()",
+		"body": "\n$sanitizer->$fieldName(\\$${1:value});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-name()": {
+		"prefix": "$sanitizer-name()",
+		"body": "\n$sanitizer->name(\\$${1:value});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-$pageName()": {
+		"prefix": "$sanitizer-$pageName()",
+		"body": "\n$sanitizer->$pageName(\\$${1:value});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-selector$field()": {
+		"prefix": "$sanitizer-selector$field()",
+		"body": "\n$sanitizer->selector$field(\\$${1:value});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-selectorValue()": {
+		"prefix": "$sanitizer-selectorValue()",
+		"body": "\n$sanitizer->selectorValue(\\$${1:value});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-text()": {
+		"prefix": "$sanitizer-text()",
+		"body": "\n$sanitizer->text(\\$${1:value});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-text()1": {
+		"prefix": "$sanitizer-text()",
+		"body": "\n$sanitizer->text(\\$${1:value},\\$${2:options});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-textarea()": {
+		"prefix": "$sanitizer-textarea()",
+		"body": "\n$sanitizer->textarea(\\$${1:value});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-textarea()1": {
+		"prefix": "$sanitizer-textarea()",
+		"body": "\n$sanitizer->textarea(\\$${1:value},\\$${2:options});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-url()": {
+		"prefix": "$sanitizer-url()",
+		"body": "\n$sanitizer->url(\\$${1:value});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$sanitizer-$username()": {
+		"prefix": "$sanitizer-$username()",
+		"body": "\n$sanitizer->$username(\\$${1:value});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$session-get()": {
+		"prefix": "$session-get()",
+		"body": "\n$session->get(\\$${1:name});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$session-getAll()": {
+		"prefix": "$session-getAll()",
+		"body": "\n$session->getAll();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$session-set()": {
+		"prefix": "$session-set()",
+		"body": "\n$session->set(\\$${1:name},\\$${2:value});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->allow$pageNum": {
+		"prefix": "$template->allow$pageNum",
+		"body": "\n$template->allow$pageNum;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->cache_time": {
+		"prefix": "$template->cache_time",
+		"body": "\n$template->cache_time;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->children$templatesID": {
+		"prefix": "$template->children$templatesID",
+		"body": "\n$template->children$templatesID;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->$filename": {
+		"prefix": "$template->$filename",
+		"body": "\n$template->$filename;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->get()": {
+		"prefix": "$template->get()",
+		"body": "\n$template->get(\\$${1:property});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->id": {
+		"prefix": "$template->id",
+		"body": "\n$template->id;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->label": {
+		"prefix": "$template->label",
+		"body": "\n$template->label;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->name": {
+		"prefix": "$template->name",
+		"body": "\n$template->name;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->protocol": {
+		"prefix": "$template->protocol",
+		"body": "\n$template->protocol;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->redirectLogin": {
+		"prefix": "$template->redirectLogin",
+		"body": "\n$template->redirectLogin;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->set()": {
+		"prefix": "$template->set()",
+		"body": "\n$template->set(\\$${1:property},\"${2:value}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->slashUrls": {
+		"prefix": "$template->slashUrls",
+		"body": "\n$template->slashUrls;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$template->urlSegments": {
+		"prefix": "$template->urlSegments",
+		"body": "\n$template->urlSegments;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$templates->find()": {
+		"prefix": "$templates->find()",
+		"body": "\n$templates->find(\"${1:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$templates->get()": {
+		"prefix": "$templates->get()",
+		"body": "\n$templates->get(\"${1:name}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$user->email": {
+		"prefix": "$user->email",
+		"body": "\n${1:$user}->email;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$user->id": {
+		"prefix": "$user->id",
+		"body": "\n${1:$user}->id;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$user->isGuest()": {
+		"prefix": "$user->isGuest()",
+		"body": "\n${1:$user}->isGuest();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$user->isLoggedin()": {
+		"prefix": "$user->isLoggedin()",
+		"body": "\n${1:$user}->isLoggedin();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$user->isSuper$user()": {
+		"prefix": "$user->isSuper$user()",
+		"body": "\n${1:$user}->isSuper$user();\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$user->name": {
+		"prefix": "$user->name",
+		"body": "\n${1:$user}->name;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$user->pass": {
+		"prefix": "$user->pass",
+		"body": "\n${1:$user}->pass;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$user->$roles": {
+		"prefix": "$user->$roles",
+		"body": "\n${1:$user}->$roles;\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$users-find()": {
+		"prefix": "$users-find()",
+		"body": "\n$users->find(\"${1:selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"$users-get()": {
+		"prefix": "$users-get()",
+		"body": "\n$users->get(\"${1:name|id|selector}\");\n",
+		"description": "",
+		"scope": "source.php"
+	}
+}

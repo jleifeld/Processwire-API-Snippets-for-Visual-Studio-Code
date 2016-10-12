@@ -1,0 +1,21 @@
+{
+    "name": "processwire-api-snippets-basic",
+    "displayName": "Processwire API Snippets Basic",
+    "description": "Snippets for the Basic Processwire API",
+    "version": "0.1",
+    "publisher": "jleifeld",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
