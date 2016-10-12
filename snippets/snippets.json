@@ -1,43 +1,43 @@
 {
-	"$config->ajax": {
-		"prefix": "$config->ajax",
-		"body": "\n$config->ajax;\n",
+	"\$config->ajax": {
+		"prefix": "\$config->ajax",
+		"body": "\n\$config->ajax;\n",
 		"description": "",
 		"scope": "source.php"
 	},
-	"$config->httpHost": {
-		"prefix": "$config->httpHost",
-		"body": "\n$config->httpHost;\n",
+	"\$config->httpHost": {
+		"prefix": "\$config->httpHost",
+		"body": "\n\$config->httpHost;\n",
 		"description": "",
 		"scope": "source.php"
 	},
-	"$config->https": {
-		"prefix": "$config->https",
-		"body": "\n$config->https;\n",
+	"\$config->https": {
+		"prefix": "\$config->https",
+		"body": "\n\$config->https;\n",
 		"description": "",
 		"scope": "source.php"
 	},
-	"$config->paths->root": {
-		"prefix": "$config->paths->root",
-		"body": "\n$config->paths->root;\n",
+	"\$config->paths->root": {
+		"prefix": "\$config->paths->root",
+		"body": "\n\$config->paths->root;\n",
 		"description": "",
 		"scope": "source.php"
 	},
-	"$config->paths->$templates": {
-		"prefix": "$config->paths->$templates",
-		"body": "\n$config->paths->$templates;\n",
+	"\$config->paths->$templates": {
+		"prefix": "\$config->paths->$templates",
+		"body": "\n\$config->paths->$templates;\n",
 		"description": "",
 		"scope": "source.php"
 	},
-	"$config->urls->root": {
-		"prefix": "$config->urls->root",
-		"body": "\n$config->urls->root;\n",
+	"\$config->urls->root": {
+		"prefix": "\$config->urls->root",
+		"body": "\n\$config->urls->root;\n",
 		"description": "",
 		"scope": "source.php"
 	},
-	"$config->urls->$templates": {
-		"prefix": "$config->urls->$templates",
-		"body": "\n$config->urls->$templates;\n",
+	"\$config->urls->$templates": {
+		"prefix": "\$config->urls->$templates",
+		"body": "\n\$config->urls->$templates;\n",
 		"description": "",
 		"scope": "source.php"
 	},
