@@ -9,9 +9,9 @@ This snippet pack is for Processwire CMS. It contains all the basic API function
 
 ## Usage
 
-You can call the snippets with typing '$'. 
+You can call the snippets with typing 'pw' and then whatever fits.
 
-Example: "$page->id".
+Example: "pwfieldid" returns '$field->id'.
 
 ## Known Issues
 
@@ -21,13 +21,8 @@ Look at the Github Issues.
 
 ## Release Notes
 
-### 0.1
+### 0.2
 
-- Converted the Snippets from [@evanmcd](https://github.com/evanmcd/SublimeProcessWireSnippetsBasic).
-- Modified the Snippets for better usage: Every snippet starts with '$'.
-
-## Thanks
-
-[evanmcd](https://github.com/evanmcd) for the snippets in Sublime.
+First working version. Completely new written.
 
 **Enjoy!**
