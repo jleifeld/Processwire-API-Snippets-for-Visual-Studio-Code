@@ -23,6 +23,6 @@ Look at the Github Issues.
 
 ### 0.2
 
-First working version. Completely new written.
+Work in development version. "Config" and "Fields" should work.
 
 **Enjoy!**
